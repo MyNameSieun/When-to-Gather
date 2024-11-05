@@ -12,13 +12,13 @@ const Homepage = () => {
 
         <article className="flex gap-5 justify-center mt-28">
           <Link href="./create">
-            <div className="text-white bg-main-color w-[20rem] h-[10rem] rounded-md p-3 text-ls">
+            <div className="text-white bg-main-color w-[20rem] h-[10rem] rounded-md p-3 text-ls shadow-md">
               모임 만들기
             </div>
           </Link>
 
           <Link href="./join">
-            <div className="text-dark-color bg-sub-color  w-[20rem] h-[10rem] rounded-md p-3 text-ls">
+            <div className="text-dark-color bg-sub-color  w-[20rem] h-[10rem] rounded-md p-3 text-ls shadow-md">
               모임 참가하기
             </div>
           </Link>

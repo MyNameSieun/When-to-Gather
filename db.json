@@ -1,52 +1,20 @@
 {
   "meetings": [
     {
-      "id": "afd2",
-      "meetingName": "",
-      "meetingDescription": "",
-      "date": "",
-      "startTime": "",
-      "endTime": ""
+      "id": "1",
+      "meetingName": "개발자 모임",
+      "meetingDescription": "프론트엔드 개발자 모임",
+      "date": "2024-11-10",
+      "startTime": "10:00",
+      "endTime": "12:00"
     },
     {
-      "id": "ef9bd740-c602-4786-8ed7-e0ecd40bb166",
-      "meetingName": "ㄴㅁㅇ",
-      "meetingDescription": "",
-      "date": "",
-      "startTime": "",
-      "endTime": ""
-    },
-    {
-      "id": "28afe07b-4166-4794-925d-c7647876e5b6",
-      "meetingName": "7",
-      "meetingDescription": "",
-      "date": "",
-      "startTime": "",
-      "endTime": ""
-    },
-    {
-      "id": "3902b520-1365-4ebe-8468-71dfecb1d863",
-      "meetingName": "ㅁㄴㅇ",
-      "meetingDescription": "ㅁㄴㅇ",
-      "date": "2024-11-07",
-      "startTime": "18:38",
-      "endTime": "19:38"
-    },
-    {
-      "id": "3698296f-78c8-4067-a9e7-ed4775615124",
-      "meetingName": "678",
-      "meetingDescription": "678",
-      "date": "2024-11-08",
-      "startTime": "14:47",
-      "endTime": "18:44"
-    },
-    {
-      "id": "5f77237c-7bad-4587-b231-bfbb2abffbe0",
-      "meetingName": "68",
-      "meetingDescription": "686",
-      "date": "2024-11-22",
-      "startTime": "16:44",
-      "endTime": "14:47"
+      "id": "2",
+      "meetingName": "디자이너 모임",
+      "meetingDescription": "UI/UX 디자이너 모임",
+      "date": "2024-11-12",
+      "startTime": "14:00",
+      "endTime": "16:00"
     }
   ]
 }
