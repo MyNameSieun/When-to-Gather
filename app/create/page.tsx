@@ -63,9 +63,9 @@ const CreatePage = () => {
   };
 
   return (
-    <div>
+    <main className="mt-6">
       {/* 모임 이름 입력 */}
-      <label className="form-control w-full max-w-xs">
+      <label className="mb-5 form-control w-full max-w-xs">
         <div className="label">
           <span className="label-text">모임 이름</span>
         </div>
@@ -78,7 +78,7 @@ const CreatePage = () => {
         />
       </label>
       {/* 모임 내용 입력 */}
-      <label className="form-control">
+      <label className="mb-5 form-control">
         <div className="label">
           <span className="label-text">모임 내용</span>
         </div>
@@ -90,7 +90,7 @@ const CreatePage = () => {
         ></textarea>
       </label>
       {/* 날짜 선택 */}
-      <label className="form-control w-full max-w-xs">
+      <label className="mb-5 form-control w-full max-w-xs">
         <div className="label">
           <span className="label-text">날짜 선택</span>
         </div>
@@ -116,7 +116,7 @@ const CreatePage = () => {
           />
         </label>
 
-        <label className="form-control w-full max-w-xs">
+        <label className="mb-9 form-control w-full max-w-xs">
           <div className="label">
             <span className="label-text">종료 시간</span>
           </div>
@@ -130,11 +130,11 @@ const CreatePage = () => {
       </div>
       <button
         onClick={handleCreateMeeting}
-        className="text-white bg-main-color px-3 py-3 rounded-md mt-9"
+        className="text-white bg-main-color px-6 py-3 rounded-md mt-9"
       >
         모임 생성
       </button>
-    </div>
+    </main>
   );
 };
 
