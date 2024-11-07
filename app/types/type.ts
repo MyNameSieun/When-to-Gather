@@ -5,4 +5,5 @@ export interface Meeting {
   date: string;
   startTime: string;
   endTime: string;
+  randomCode: string;
 }

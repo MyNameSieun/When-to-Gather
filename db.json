@@ -1,29 +1,31 @@
 {
   "meetings": [
     {
-      "id": "1",
+      "id": "232bee57-732a-4831-8a46-28369954f134",
       "meetingName": "개발자 모임",
       "meetingDescription": "프론트엔드 개발자 모임",
       "date": "2024-11-10",
       "startTime": "10:00",
-      "endTime": "12:00"
+      "endTime": "12:00",
+      "randomCode": "VXNIF1"
     },
     {
-      "id": "2",
+      "id": "232bee57-732a-4831-8a46-28369954f199",
       "meetingName": "디자이너 모임",
       "meetingDescription": "UI/UX 디자이너 모임",
       "date": "2024-11-12",
       "startTime": "14:00",
-      "endTime": "16:00"
+      "endTime": "16:00",
+      "randomCode": "VXNIF4"
     },
     {
-      "id": "8a354a2d-9a17-4bcc-9ef2-b2fa8e3f92eb",
-      "meetingName": "dsfsdf",
-      "meetingDescription": "sdfsd",
-      "date": "2024-11-22",
-      "startTime": "13:30",
-      "endTime": "19:27",
-      "randomCode": "8FRCH8"
+      "id": "232bee57-732a-4831-8a46-28369954f178",
+      "meetingName": "ㅓㅘ",
+      "meetingDescription": "ㅘㅗㅓㅏㅗㅓㅏ",
+      "date": "2024-11-28",
+      "startTime": "14:20",
+      "endTime": "17:17",
+      "randomCode": "VXNIF0"
     }
   ]
 }

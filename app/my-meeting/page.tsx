@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Meeting } from "../type";
+import { Meeting } from "../types/type";
 
 const MyMeetingPage: React.FC = () => {
   const [meetings, setMeetings] = useState<Meeting[]>([]);
