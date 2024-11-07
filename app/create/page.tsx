@@ -13,6 +13,18 @@ const CreatePage = () => {
 
   const router = useRouter();
 
+  // 랜덤 코드 생성
+  const generateRandomCode = () => {
+    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    let randomCode = "";
+    for (let i = 0; i < 6; i++) {
+      const randomIndex = Math.floor(Math.random() * characters.length);
+      randomCode += characters[randomIndex];
+    }
+    return randomCode;
+  };
+
+  // 모임 생성
   const handleCreateMeeting = async () => {
     if (!meetingName) {
       return alert("모임 이름을 입력해주세요");
@@ -23,12 +35,13 @@ const CreatePage = () => {
     if (!date) {
       return alert("날짜를 선택해주세요.");
     }
-    if (!date) {
+    if (!startTime) {
       return alert("시작 시간을 선택해주세요.");
     }
-    if (!date) {
+    if (!endTime) {
       return alert("종료 시간을 선택해주세요.");
     }
+    const randomCode = generateRandomCode();
 
     const meetingData = {
       id: uuid(),
@@ -37,6 +50,7 @@ const CreatePage = () => {
       date,
       startTime,
       endTime,
+      randomCode,
     };
 
     try {

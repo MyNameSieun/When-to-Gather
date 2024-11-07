@@ -15,6 +15,15 @@
       "date": "2024-11-12",
       "startTime": "14:00",
       "endTime": "16:00"
+    },
+    {
+      "id": "8a354a2d-9a17-4bcc-9ef2-b2fa8e3f92eb",
+      "meetingName": "dsfsdf",
+      "meetingDescription": "sdfsd",
+      "date": "2024-11-22",
+      "startTime": "13:30",
+      "endTime": "19:27",
+      "randomCode": "8FRCH8"
     }
   ]
 }
