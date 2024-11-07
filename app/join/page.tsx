@@ -41,7 +41,6 @@ const JoinPage = () => {
     );
 
     if (matchedMeeting) {
-      alert("입장이 가능합니다.");
       router.push(`/meeting-vote/${matchedMeeting.id}`);
     } else {
       alert("코드가 존재하지 않습니다.");
