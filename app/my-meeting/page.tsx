@@ -1,12 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Meeting } from "../types/type";
+import { useRouter } from "next/navigation";
 
 const MyMeetingPage: React.FC = () => {
   const [meetings, setMeetings] = useState<Meeting[]>([]);
   const [loading, setLoading] = useState(true);
 
   const currentDate = new Date();
+  const router = useRouter();
 
   // 로드
   useEffect(() => {
@@ -61,6 +63,7 @@ const MyMeetingPage: React.FC = () => {
                 <li
                   key={meeting.id}
                   className="border border-gray-300 rounded-md p-4 mb-4 shadow-md cursor-pointer"
+                  onClick={() => router.push(`meeting-vote/${meeting.id}`)}
                 >
                   <div className="flex">
                     <h3 className="text-xl font-semibold">

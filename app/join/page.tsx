@@ -48,14 +48,16 @@ const JoinPage = () => {
   };
   return (
     <main className="flex flex-col justify-center items-center">
-      <h1 className="mx-auto text-2xl font-bold">코드를 입력해주세요</h1>
+      <h1 className="mx-auto text-2xl font-bold mt-20 mb-16">
+        코드를 입력해주세요
+      </h1>
 
       <form className="flex gap-4">
         <input
           type="text"
           value={enteredCode}
           onChange={(e) => setEnteredCode(e.target.value)}
-          placeholder="Type here"
+          placeholder="VXNIF1"
           className="mx-auto input input-bordered w-full max-w-xs"
         />
         <button
